@@ -1,0 +1,50 @@
+body {
+  background-image: url(assets/images/lweendo-hachileka-vOtvEuS6C0M-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+main {
+  flex: 1; 
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 7px 7px;
+  border-radius: 40px 40px 0 0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 8px;
+  width: 100%;
+  margin-top: auto; 
+}
+
+footer a {
+  color: #00aaff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffcc00;
+}

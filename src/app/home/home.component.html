@@ -1,0 +1,15 @@
+<div class="news-container">
+  <div *ngFor="let article of news" class="news-article">
+    <div class="news-image">
+      <img [src]="article.imageUrl" [alt]="article.title" />
+    </div>
+    <div class="news-content">
+      <h2 class="news-title">{{ article.title }}</h2>
+      <p class="news-description">{{ article.description }}</p>
+      <div class="news-footer">
+        <span class="news-date">{{ article.date | date:'dd MMM yyyy' }}</span>
+        <span class="news-author">Autor: {{ article.author }}</span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  border-radius: ¸40px 10px 0 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: #bbb;
+  padding: 15px;
+  font-size: 14px;
+}
+
+  .footer-bottom p {
+    margin: 0;
+  }
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
